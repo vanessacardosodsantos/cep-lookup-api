@@ -11,7 +11,7 @@ API REST para consulta de endereços por CEP com cache local usando Caffeine.
 - **RestClient** — cliente HTTP nativo do Spring para consumir a API ViaCEP
 - **Lombok** 
 - **Gradle**
-- 
+
 ## O que é Cache e por que usamos aqui
 
 CEPs raramente mudam de endereço. Sem cache, cada requisição para `/cep/{cep}` faria
